@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-pgfmolbio
 Version:	0.1
-Release:	1
+Release:	2
 Summary:	Draw graphs typically found in molevular biology texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
