@@ -1,13 +1,13 @@
-# revision 28023
+# revision 24040
 # category Package
 # catalog-ctan /macros/luatex/latex/pgfmolbio
-# catalog-date 2012-10-04 13:44:39 +0200
+# catalog-date 2011-09-20 19:53:04 +0200
 # catalog-license lppl1.3
-# catalog-version 0.2
+# catalog-version 0.1
 Name:		texlive-pgfmolbio
-Version:	0.2
-Release:	1
-Summary:	Draw graphs typically found in molecular biology texts
+Version:	0.1
+Release:	2
+Summary:	Draw graphs typically found in molevular biology texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
 License:	LPPL1.3
@@ -21,8 +21,9 @@ Requires(post):	texlive-kpathsea
 
 %description
 The package draws graphs typically found in molecular biology
-texts. Currently, the package contains modules for drawing DNA
-sequencing chromatograms and protein domain diagrams.
+texts. Currently, the package contains one module, which
+creates DNA sequencing chromatograms from files in standard
+chromatogram format (scf).
 
 %post
     %{_sbindir}/texlive.post
@@ -36,15 +37,9 @@ sequencing chromatograms and protein domain diagrams.
 %files
 %{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.chromatogram.lua
 %{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.chromatogram.tex
-%{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.convert.tex
-%{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.domains.lua
-%{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.domains.tex
 %{_texmfdistdir}/tex/lualatex/pgfmolbio/pgfmolbio.sty
 %doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/README
-%doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/SampleGff.gff
 %doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/SampleScf.scf
-%doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/SampleUniprot.txt
-%doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/pgfmolbio.lua
 %doc %{_texmfdistdir}/doc/lualatex/pgfmolbio/pgfmolbio.pdf
 #- source
 %doc %{_texmfdistdir}/source/lualatex/pgfmolbio/pgfmolbio.dtx
@@ -59,3 +54,16 @@ sequencing chromatograms and protein domain diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
++ Revision: 754817
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
++ Revision: 719242
+- texlive-pgfmolbio
+- texlive-pgfmolbio
+- texlive-pgfmolbio
+
