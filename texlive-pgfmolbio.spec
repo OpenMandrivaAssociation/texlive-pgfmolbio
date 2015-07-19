@@ -6,7 +6,7 @@
 # catalog-version 0.21
 Name:		texlive-pgfmolbio
 Version:	0.21
-Release:	8
+Release:	9
 Summary:	Draw graphs typically found in molecular biology texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
