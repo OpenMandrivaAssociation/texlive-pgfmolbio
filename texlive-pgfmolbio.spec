@@ -1,6 +1,6 @@
 Name:		texlive-pgfmolbio
-Version:	35152
-Release:	2
+Version:	71551
+Release:	1
 Summary:	Draw graphs typically found in molecular biology texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
