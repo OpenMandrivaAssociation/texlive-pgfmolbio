@@ -3,7 +3,7 @@ Version:	71551
 Release:	1
 Summary:	Draw graphs typically found in molecular biology texts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/pgfmolbio
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgfmolbio.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgfmolbio.doc.r%{version}.tar.xz
